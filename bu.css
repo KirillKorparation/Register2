@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+.rer {
+	width:164px;
+	height:28px;
+	background:#0501B3 ;
+	color: #FFF;
+	font-size: 15px;
+	letter-spacing: 1px;
+	display: block;
+	text-align: center;
+	line-height: 28px;
+	margin-top: -7px;
+
+}
+form {
+	opacity: 0;
+	box-sizing: border-box;
+    border-radius: 10px;
+	width: 320px;
+	height: 327px;
+	margin: 100px auto;
+	padding-left: 27px;
+	padding-right: 33px;
+	background: rgba(84, 46, 123, 0.6);
+	-webkit-box-shadow: 1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+-moz-box-shadow:    1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+box-shadow:         1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+transition: 1s;
+}
+form:hover {
+	-webkit-box-shadow: 1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+-moz-box-shadow:    1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+box-shadow:         1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+}
+button {
+	width: 260px;
+	height: 46px;
+	background: #0501B3;
+	color: #FFF;
+	letter-spacing: 1px;
+	font-size: 20px;
+	margin-top: 15px;
+}
+body {
+	background: url(kapTuHku/boba.jpg);
+}
+label {
+	color: #FFF;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+}
+.tar {
+	color: green;
+	font-weight:bold ;
+}
+input {
+	width: 260px;
+	-webkit-box-shadow: 0px 0px 24px 15px rgba(236, 26, 221, 0.3);
+-moz-box-shadow: 0px 0px 24px 15px rgba(236, 26, 221, 0.3);
+box-shadow: 0px 0px 24px 15px rgba(236, 26, 221, 0.3);
+transition:1s ;
+padding: 10px 24px;
+border: 0px;
+outline:  none;
+opacity: 0.4;
+color: #FFE800;
+}
+
+input:focus {
+webkit-box-shadow: 0px 0px 24px 15px rgba(255, 232, 0, 0.3);
+-moz-box-shadow: 0px 0px 24px 15px rgba(255, 232, 0, 0.3);
+box-shadow: 0px 0px 24px 15px rgba(255, 232, 0, 0.3);
+opacity: 1;
+}
+.Email {
+	background: url(kapTuHku/us.png);
+	background-repeat: no-repeat;
+	background-position: right+5px center;
+
+
+}
+.Password {
+	background: url(kapTuHku/set.png) ;
+	background-repeat: no-repeat;
+	background-position: right+5px center;
+}
+.button2 {
+	opacity: 1;
+	display: block;
+	margin: 0 auto;
+	-webkit-box-shadow: 1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+-moz-box-shadow:    1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+box-shadow:         1px 0px 30px 11px rgba(50, 0, 255, 0.75);
+transition: 1s;
+}
+.button2:hover {
+	-webkit-box-shadow: 1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+-moz-box-shadow:    1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+box-shadow:         1px 0px 30px 11px rgba(255, 232, 0, 0.75);
+}
